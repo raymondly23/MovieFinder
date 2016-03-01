@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Movie Finder</title>
+	<h1>Find A Movie</h1>
+</head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<body>
+<div id='buttons'>
+Movie:
+<input id='movie' type="text"></input>
+Year:
+<input id="year" type="number"></input>
+Type:
+<select id="type" class="btn btn-default dropdown-toggle">
+  <option value="movie">Movie</option>
+  <option value="series">Series</option>
+  <option value="episode">Episode</option>
+</select>
+Plot:
+<select id='plot' class="btn btn-default dropdown-toggle">
+	<option value="short">Short</option>
+	<option value="full">Full</option>
+</select>
+<button id='search' class="btn btn-info"><span class="glyphicon glyphicon-search"></span></button>
+<button id='next' class="btn btn-info">Next Page</button>
+</div>
+<div id='container'>
+	
+</div>
+<script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
+
